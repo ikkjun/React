@@ -1,10 +1,11 @@
 import React from "react";
 // import MyComponent from "./MyComponent";
 // import MyComponentClass from "./MyComponentClass";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+import Say from "./Say";
 
 const App = () => {
-  return <Counter />;
+  // return <Counter />;
 
   // (
   //   <>
@@ -16,6 +17,7 @@ const App = () => {
   //     </MyComponentClass>
   //   </>
   // );
+  return <Say />;
 };
 
 export default App;
